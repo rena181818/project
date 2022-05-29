@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+	height: 150vh;
+	background: linear-gradient(rgba(1, 3, 56, .5), rgba(1, 3, 56, .1)), url(https://www.airpano.ru/photogallery/images_1550/224_228395.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+/*Style for navigation*/
+.navigation {
+	position: absolute;
+	display: inline-block;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	top: 8%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+.container{
+    border: 1px rgb(83, 49, 49);
+    box-sizing: border-box;
+
+}
+
+.social{
+    color: white;;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    left: 30%;
+}
+
+.social-item{
+    height: 70px;
+    width: 70px;
+    border-radius: 70%;
+    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    transition: all 0.4s;
+
+}
+.social li a{
+color: white;
+}
+
+
+.youtube:hover{
+    background-color: rgb(233, 76, 76);
+    box-shadow: 0px 0px 25px rgb(248, 42, 42);
+    color: rgb(250, 41, 41);
+    border-color: rgb(248, 24, 24);
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+}
+
+.telegram:hover{
+    background-color: rgb(112, 185, 245);
+    box-shadow:0px 0px 25px rgb(119, 185, 240);
+    color:rgb(119, 184, 238);
+    border-color: rgb(75, 166, 219);
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    
+}
+
+.whatsapp:hover{
+    background-color: rgb(96, 218, 15);
+    box-shadow: 0px 0px 25px rgb(97, 224, 12);
+    border-color: rgb(56, 201, 56);
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+}
+.menu {
+  position:absolute;
+  display: flex;
+  right: 5px;
+  top: 1%;
+}
+
+.nav {
+	display: flex;
+	list-style: none;
+}
+
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 30px 0 0;
+	font-size: 18px;
+}
+
+.icon li a {
+    top: 5%;
+	margin: 0 20px 0 0;
+}
+
+.logo {
+    position:absolute;
+    top: 50%;
+	font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    color: #fcbd82;
+}
+
+.link {
+	transition: .3s;
+}
+
+.link:hover {
+	color: #fcbd82;
+}
+
+/*Style for description*/
+.description {
+	top: 35%;
+	left: 10%;
+	width: 35%;
+    height: 100%;
+	position: absolute;
+}
+
+.description h1 {
+	margin: 0;
+	font-size: 24px;
+	color: #fff;
+}
+
+.description p {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.menu a{
+    text-decoration: none;
+    display: block;
+    position: relative;
+    line-height: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    transition: .3s linear;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+}
+
+
+.menu a:hover{
+    text-shadow: 3px 4px 1px rgb(122, 158, 255),
+            5px 6px 1px rgb(124, 185, 255),
+            7px 4px 1px rgb(120, 174, 255);
+    color: rgb(255, 255, 255);
+
+}
+
+.menu ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding:0;
+    margin:0;
+}
+
+.menu li:hover ul{
+    display: block;
+    
+}
+.menu ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration:overline;
+    text-shadow: 1px 2px 2px black;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    position:relative;
+   
+}
+
+.menu li{
+    float: left;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.menu ul li{
+    float: none;
+    width: 100%;
+}
+
+.menu ul li a{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contact li a{
+    text-align: left;
+    line-height: 50px;
+
+}
+.menu li a i.fa{
+  font-size:18px;
+  text-shadow: 1px 2px 2px black;
+  position:absolute;
+  top: 20px;
+  left: -5px;
+  display:inline-block
+  }

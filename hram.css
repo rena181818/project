@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tiro+Devanagari+Hindi&family=Varela+Round&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    height: 200vh;
+  background: linear-gradient(rgba(1, 3, 56, .5), rgba(1, 3, 56, .1)), url(https://www.airpano.ru/photogallery/images_1550/224_228395.jpg);
+  
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  height: 200vh;
+  width: 100%;
+}
+.name{
+  left: 5%;
+ position:absolute;
+    top: 75%;
+  font-size: 40px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    color: #fff;
+  margin: 5%;
+}
+
+/*Style for navigation*/
+.navigation {
+  position: absolute;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.menu {
+  position:absolute;
+  display: flex;
+  right: 5px;
+  top: 1%;
+}
+
+
+
+.logo {
+    position:absolute;
+    top: 50%;
+  font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    color: #fcbd82;
+}
+
+
+
+/*Style for description*/
+.description {
+  top: 39%;
+  left: 3%;
+  width: 55%;
+  position: absolute;
+    margin: 0;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+    border: thick double #ffffff;
+    padding: 10px;
+    line-height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+  font-family: 'Playfair Display', serif;
+
+}
+
+
+.wiki{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Ltrx2Eb4h8zHsH_tQ3TS4Xkrhs1wMb84Nw&usqp=CAU);
+    width: 400px;
+    height: 300px;
+    display: block;
+  top: 39%;
+  left: 70%;
+  position: absolute;
+    margin: 0;
+ }
+.pic{
+  top:60%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtVHDE2a2Mt978dxT8gbVG3nZe0RZcysHMrQ&usqp=CAU);
+    width: 300px;
+    height: 200px;
+    display: block;
+  
+  left: 60%;
+  position: absolute;
+    margin: 10%;
+}
+
+/*Style for end-head*/
+
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.menu a{
+    text-decoration: none;
+    display: block;
+    position: relative;
+    line-height: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    transition: .3s linear;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+}
+
+
+.menu a:hover{
+    text-shadow: 3px 4px 1px rgb(122, 158, 255),
+            5px 6px 1px rgb(124, 185, 255),
+            7px 4px 1px rgb(120, 174, 255);
+    color: rgb(255, 255, 255);
+
+}
+
+.menu ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding:0;
+    margin:0;
+}
+
+.menu li:hover ul{
+    display: block;
+    
+}
+.menu ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration:overline;
+    text-shadow: 1px 2px 2px black;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    position:relative;
+   
+}
+
+.menu li{
+    float: left;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.menu ul li{
+    float: none;
+    width: 100%;
+    
+}
+
+.menu ul li a{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contact li a{
+    text-align: left;
+    line-height: 50px;
+
+}
+.menu li a i.fa{
+  font-size:18px;
+  text-shadow: 1px 2px 2px black;
+  position:absolute;
+  top: 20px;
+  left: -5px;
+  display:inline-block
+  }
+ 

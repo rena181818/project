@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+	height: 650vh;
+	background: linear-gradient(rgba(1, 3, 56, .5), rgba(1, 3, 56, .1)), url(https://www.airpano.ru/photogallery/images_1550/224_228395.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+/*Style for navigation*/
+.navigation {
+	position: absolute;
+	display: inline-block;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	top: 8%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.logo a{
+    position:absolute;
+	font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    color: #fcbd82;
+	text-decoration: none;
+}
+.link {
+	transition: .3s;
+}
+
+.link:hover {
+	color: #fcbd82;
+}
+
+/*Style for description*/
+.txt{
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	top: 50%;
+	left: 45%;
+	color: #ffffff;
+}
+.description {
+	top:30%;
+	left: 30%;
+	width: 100%;
+    height: 100%;
+	position: relative;	
+}
+
+.hram{
+	display: inline-block;
+	text-decoration: none;
+	width: 700px;
+	height: 450px;
+	background-image: url(hram.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 700px 450px;
+	border-radius: 10px;
+	border: solid 5px white;
+	position: relative;
+}
+.hram a{
+	text-align: center;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	text-shadow: 1px 2px 3px black;
+	text-align: end;
+	-webkit-text-stroke: 1px rgb(0, 0, 0);
+	background: rgb(0,0,0, 0.4);
+	
+}
+.kreml{
+	display: inline-block;
+	text-decoration: none;
+	width: 700px;
+	height: 450px;
+	background-image: url(kreml.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 700px 450px;
+	border-radius: 10px;
+	border: solid 5px white;
+	position: relative;
+}
+.kreml a{
+	text-align: center;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	text-shadow: 1px 2px 3px black;
+	text-align: end;
+	-webkit-text-stroke: 1px rgb(0, 0, 0);
+	background: rgb(0,0,0, 0.4);
+}
+.bauman{
+	display: inline-block;
+	text-decoration: none;
+	width: 700px;
+	height: 450px;
+	background-image: url(bauman.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 700px 450px;
+	border-radius: 10px;
+	border: solid 5px white;
+	position: relative;
+}
+.bauman a{
+	text-align: center;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	text-shadow: 1px 2px 3px black;
+	text-align: end;
+	-webkit-text-stroke: 1px rgb(0, 0, 0);
+	background: rgb(0,0,0, 0.4);
+}
+.dvorets{
+	display: inline-block;
+	text-decoration: none;
+	width: 700px;
+	height: 450px;
+	background-image: url(dvorets.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 700px 450px;
+	border-radius: 10px;
+	border: solid 5px white;
+	position: relative;
+}
+.dvorets a{
+	text-align: center;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	text-shadow: 1px 2px 3px black;
+	text-align: end;
+	-webkit-text-stroke: 1px rgb(0, 0, 0);
+	background: rgb(0,0,0, 0.4);
+}
+.sobor{
+	display: inline-block;
+	text-decoration: none;
+	width: 700px;
+	height: 450px;
+	background-image: url(http://img.tourister.ru/files/1/0/6/5/4/5/3/3/original.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 700px 450px;
+	border-radius: 10px;
+	border: 1px white;
+	position: relative;
+}
+.sobor a{
+	text-align: center;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	text-shadow: 1px 2px 3px black;
+	text-align: end;
+	-webkit-text-stroke: 1px rgb(0, 0, 0);
+	background: rgb(0,0,0, 0.4);
+}
+
+
+
+.post-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    
+}
+
+.social li {
+	padding: 0 15px 0 0;
+}
+
+.social li a {
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.post-nav {
+	display: flex;
+	list-style: none;
+}
+
+.post-nav li {
+	padding: 0 30px 0 0;
+}
+
+.post-nav li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+
+	
+
+  
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+	position: absolute;
+	font-family: serif;
+	right: 5px;
+	top: 1%;
+	display: flex;
+	position: relative;
+}
+.menu > ul{
+	display: flex;
+	justify-content: center;
+}
+.menu > ul li{
+	position: relative;
+}
+
+.menu li a{
+    text-decoration: none;
+    display: block;
+    position: relative;
+    line-height: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    transition: .3s linear;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+}
+
+
+.menu a:hover{
+    text-shadow: 3px 4px 1px rgb(122, 158, 255),
+            5px 6px 1px rgb(124, 185, 255),
+            7px 4px 1px rgb(120, 174, 255);
+    color: rgb(255, 255, 255);
+
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding:0;
+    margin:0;
+}
+.menu li > ul li ul{
+	position: absolute;
+}
+.menu li:hover ul{
+    display: block;
+   
+}
+.menu ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration:overline;
+    text-shadow: 1px 2px 2px black;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    position:relative;
+   
+}
+
+.menu li{
+    float: left;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.menu ul li a{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+	display: block;
+	
+}
+
+.contact li a{
+    text-align: left;
+    line-height: 50px;
+
+}
+.menu li a i.fa{
+  font-size:18px;
+  text-shadow: 1px 2px 2px black;
+  position:absolute;
+  top: 20px;
+  left: -5px;
+  display:inline-block
+  }

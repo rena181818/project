@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+	height: 250vh;
+	background: linear-gradient(rgba(1, 3, 56, .5), rgba(1, 3, 56, .1)), url(https://www.airpano.ru/photogallery/images_1550/224_228395.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+/*Style for navigation*/
+.navigation {
+	position: absolute;
+	display: inline-block;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	top: 8%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.menu {
+  position:absolute;
+  display: flex;
+  right: 5px;
+  top: 1%;
+}
+
+.nav {
+	display: flex;
+	list-style: none;
+}
+
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 30px 0 0;
+	font-size: 18px;
+}
+
+.icon li a {
+    top: 5%;
+	margin: 0 20px 0 0;
+}
+
+.logo a{
+    position:absolute;
+    top: 50%;
+	font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    color: #fcbd82;
+	text-decoration: none;
+}
+
+.link {
+	transition: .3s;
+}
+
+.link:hover {
+	color: #fcbd82;
+}
+
+/*Style for description*/
+.description {
+	top: 35%;
+	left: 10%;
+	width: 35%;
+    height: 100%;
+	position: absolute;
+}
+
+.description h1 {
+	margin: 0;
+	font-size: 20px;
+	color: #fff;
+}
+
+.description p {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+/*Style for end-head*/
+.post-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    
+}
+
+.social li {
+	padding: 0 15px 0 0;
+}
+
+.social li a {
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.post-nav {
+	display: flex;
+	list-style: none;
+}
+
+.post-nav li {
+	padding: 0 30px 0 0;
+}
+
+.post-nav li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.menu a{
+    text-decoration: none;
+    display: block;
+    position: relative;
+    line-height: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    transition: .3s linear;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+}
+
+
+.menu a:hover{
+    text-shadow: 3px 4px 1px rgb(122, 158, 255),
+            5px 6px 1px rgb(124, 185, 255),
+            7px 4px 1px rgb(120, 174, 255);
+    color: rgb(255, 255, 255);
+
+}
+
+.menu ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding:0;
+    margin:0;
+}
+
+.menu li:hover ul{
+    display: block;
+    
+}
+.menu ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration:overline;
+    text-shadow: 1px 2px 2px black;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    position:relative;
+   
+}
+
+.menu li{
+    float: left;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.menu ul li{
+    float: none;
+    width: 100%;
+}
+
+.menu ul li a{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contact li a{
+    text-align: left;
+    line-height: 50px;
+
+}
+.menu li a i.fa{
+  font-size:18px;
+  text-shadow: 1px 2px 2px black;
+  position:absolute;
+  top: 20px;
+  left: -5px;
+  display:inline-block
+  }
+
+.pic-1{
+	width: 500px;
+	height: 300px;
+	background-image: url(https://picworld.ru/wp-content/uploads/2018/03/kazan-67.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	top: 15%;
+	left: 10%;
+}
+
+.pic-2{
+	width: 500px;
+	height: 300px;
+	background-image: url(https://pobedarf.ru/wp-content/uploads/2021/09/depositphotos_810628.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	left: 50%;
+	top: 10%;
+}
+.pic-3{
+	width: 500px;
+	height: 300px;
+	background-image: url(https://fs.tonkosti.ru/13/tj/13tj9u0b8k1wcck8g8g8ggk0w.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	left: 10%;
+	top: 5%;
+}
+.pic-4{
+	width: 500px;
+	height: 300px;
+	background-image: url(https://avatars.mds.yandex.net/get-zen_doc/4303740/pub_60827911902a3468439432ca_608280f593645d2d32e7d912/scale_1200);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	left: 50%;
+	top: 5%;
+}
+.pic-5{
+	width: 500px;
+	height: 300px;
+	background-image: url(https://kzn.ru/upload/iblock/98a/image_19_09_15_11_17_6.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	left: 10%;
+}
+.pic-6{
+	width: 500px;
+	height: 300px;
+	background-image: url(https://cdn.fishki.net/upload/post/2018/03/04/2528691/e226d51e5fae890bb758098eb7aad2a2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	left: 50%;
+}
